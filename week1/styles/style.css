@@ -8,3 +8,7 @@ body {
 	padding: 5px;
 	border: 1px black solid;
 }
+
+p {
+	margin-bottom: 30px;
+}
