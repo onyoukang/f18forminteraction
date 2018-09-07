@@ -18,6 +18,7 @@ p {
 .reflection {
 	width: 600px;
 	margin-bottom: 20px; 
+	margin-top: 40px;
 }
 
 div {
@@ -26,4 +27,9 @@ div {
 
 img {
 	padding-bottom: 0px;
+	width: 300px;
+}
+
+.indent {
+	margin-left: 60px;
 }
