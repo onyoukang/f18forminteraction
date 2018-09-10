@@ -398,6 +398,55 @@
     border: 1px dashed #000;
 }
 
-#a-45:hover {
-	
+#a-45:hover div {
+	border: 1px dashed #000;
+	transform: skewY(45deg);
+}
+
+#a-46:hover div {
+	background-color: black;
+}
+
+#a-47 div {
+	background-color: black;
+}
+
+#a-47:hover div {
+	background-color: white;
+}
+
+#a-48:hover .small-box {
+	margin-top: -30px;
+}
+
+#a-48:hover .big-box {
+	margin-left: -30px;
+}
+
+#a-49:hover .small-box {
+	margin-left: -80px;
+}
+
+#a-49:hover .big-box {
+	margin-top: -50px;
+}
+
+#a-49:hover .bottom {
+	margin-top: -20px;
+}
+
+#a-49:hover .skewed-box {
+	margin-top: -50px;
+	margin-left: 100px;
+}
+
+#a-50:hover div {
+	padding-bottom: 30px;
+}
+
+.space {
+	margin-left: 630px;
+	padding-top: 200px;
+	height: 50px;
+
 }
