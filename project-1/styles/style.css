@@ -2,47 +2,6 @@
 	margin-left: 630px;
 	padding-top: 40px;
 }
-/*
-.diag-1 {
-	width: 20px;
-	top: 0px;
-	border-bottom: 1px solid black;
-	position: relative;
-	transform: rotate(-45deg);
-}
-
-.diag-2 {
-	width: 20px;
-	top: 130px;
-	border-bottom: 1px solid black;
-	position: relative;
-	transform: rotate(-45deg);
-}
-
-.diag-3 {
-	width: 20px;
-	top: 130px;
-	left: 80px;
-	border-bottom: 1px solid black;
-	position: relative;
-	transform: rotate(-45deg);
-}
-
-.vert-1 {
-	height: 132px;
-	top: 4px;
-	left: 2px;
-	border-left: 1px solid black;
-	position: relative;
-}
-
-.vert-2 {
-	height: 132px;
-	top: -142px;
-	left: 17px;
-	border-left: 1px solid black;
-	position: relative;
-}*/
 
 #a .left {
 	height: 130px;

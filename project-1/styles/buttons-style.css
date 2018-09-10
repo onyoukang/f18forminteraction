@@ -1,0 +1,403 @@
+.a {
+	margin-left: 630px;
+	padding-top: 200px;
+}
+
+.a .left {
+	height: 130px;
+	width: 15px;
+	margin-top: 8px;
+	border: 1px solid black;
+	transform: skewY(-45deg);
+	float: left;
+}
+
+.a .main {
+	height: 130px;
+	width: 80px;
+	margin-left: -1px;
+	border: 1px solid black;
+	float: left;
+}
+
+.a .bottom {
+	height: 15px;
+	width: 80px;
+	margin-left: -90px;
+	margin-top: 131px;
+	border: 1px solid black;
+	transform: skewX(-45deg);
+	float: left;
+}
+
+.a .big-box {
+	width: 15px;
+	height: 60px;
+	margin-left: -50px;
+	margin-top: 70px;
+	border: 1px solid black;
+	float: left;
+}
+
+.a .small-box {
+	width: 15px;
+	height: 30px;
+	margin-left: -50px;
+	margin-top: 15px;
+	border: 1px solid black;
+	float: left;
+}
+
+.a .skewed-box {
+	width: 15px;
+	height: 15px;
+	margin-left: -58px;
+	margin-top: 131px;
+	border: 1px solid black;
+	transform: skewX(-45deg);
+	float: left;
+}
+
+#a-1:hover .left {
+	width: 100px;
+}
+
+#a-2:hover .bottom {
+	width: 200px;
+}
+
+#a-3 .big-box, #a-3 .small-box, #a-3 .skewed-box {
+	visibility: hidden;
+}
+
+#a-3:hover .big-box, #a-3:hover .small-box, #a-3:hover .skewed-box {
+	visibility: visible;
+}
+
+#a-4:hover .bottom, #a-4:hover .left, #a-4:hover .skewed-box {
+	transform: none;
+}
+
+#a-5 .left, #a-5 .bottom, #a-5 .skewed-box {
+	visibility: hidden;
+}
+
+#a-5:hover .left, #a-5:hover .bottom, #a-5:hover .skewed-box {
+	visibility: visible;
+}
+
+#a-6 .left, #a-6 .bottom, #a-6 .skewed-box {
+	visibility: hidden;
+}
+
+#a-6:hover .small-box, #a-6:hover .big-box, #a-6:hover .left, #a-6:hover .bottom {
+	visibility: visible;
+	background-color: black;
+}
+
+#a-7 .left, #a-7 .bottom, #a-7 .skewed-box {
+	visibility: hidden;
+}
+
+#a-7:hover .small-box, #a-7:hover .big-box, #a-7:hover .left, #a-7:hover .bottom {
+	visibility: visible;
+	background-color: black;
+}
+
+#a-7:hover .left {
+	width: 100px;
+	margin-top: 50px;
+}
+
+#a-8 .left, #a-8 .bottom, #a-8 .skewed-box {
+	visibility: hidden;
+}
+
+#a-8:hover .small-box, #a-8:hover .big-box, #a-8:hover .left, #a-8:hover .bottom {
+	visibility: visible;
+	background-color: black;
+}
+
+#a-8:hover .bottom {
+	height: 100px;
+	margin-left: 20px;
+}
+
+#a-8:hover .left {
+	margin-right: 40px;
+	margin-top: -20px;
+}
+
+#a-9 {
+	margin-top: 50px;
+}
+
+#a-9:hover .bottom {
+	height: 100px;
+	margin-left: 20px;
+}
+
+#a-9:hover .left {
+	margin-right: 40px;
+	margin-top: -20px;
+}
+
+#a-10 {
+	margin-top: 50px;
+}
+
+#a-10:hover {
+	transform: skew(45deg);
+}
+
+#a-11:hover {
+	transform: scale(2);
+}
+
+#a-11:hover {
+	transform: skew(-45deg);
+}
+
+#a-12 .left, #a-12 .bottom, #a-12 .skewed-box, #a-12 .big-box, #a-12 .small-box {
+	background-color: black;
+}
+
+#a-12:hover .left, #a-12:hover .bottom, #a-12:hover .skewed-box, #a-12:hover .big-box, #a-12:hover .small-box {
+	background-color: white;
+}
+
+#a-13 .left, #a-13 .bottom, #a-13 .skewed-box, #a-13 .big-box, #a-13 .small-box {
+	background-color: black;
+}
+
+#a-13:hover .left, #a-13:hover .bottom, #a-13:hover .big-box, #a-13:hover .small-box {
+	background-color: white;
+}
+
+#a-13:hover .main, #a-13:hover .skewed-box {
+	background-color: black;
+}
+
+#a-14:hover {
+	-webkit-transform: scaleX(-1);
+}
+
+#a-15:hover {
+	transform: rotate(90deg);
+}
+
+#a-16:hover {
+	-webkit-filter: blur(4px);
+}
+
+#a-17:hover {
+	-webkit-filter: blur(8px);
+}
+
+#a-18 .left, #a-18 .bottom, #a-18 .skewed-box, #a-18 .main {
+	visibility: hidden;
+}
+
+#a-18:hover .small-box, #a-18:hover .big-box, #a-18:hover .left, #a-18:hover .bottom, #a-18:hover .main {
+	visibility: visible;
+}
+
+#a-19:hover {
+	background-color: black;
+}
+
+#a-20:hover .small-box, #a-20:hover .big-box, #a-20:hover .left, #a-20:hover .bottom, #a-20:hover .main, #a-20:hover .skewed-box {
+	border: 1px solid pink;
+}
+
+#a-21:hover .small-box, #a-21:hover .big-box, #a-21:hover .left, #a-21:hover .bottom, #a-21:hover .main, #a-21:hover .skewed-box {
+	visibility: hidden;
+}
+
+#a-22:hover {
+	border: 1px solid black;
+}
+
+#a-23:hover .small-box, #a-23:hover .big-box, #a-23:hover .left, #a-23:hover .bottom, #a-23:hover .main, #a-23:hover .skewed-box {
+	border: 1px dotted black;
+}
+
+#a-24 {
+	margin-left: 300px;
+}
+
+#a-24:hover .main, #a-24:hover .bottom {
+	width: 500px;
+	background-color: black;
+}
+
+#a-25:hover .bottom, #a-25:hover .skewed-box {
+	transform: skewY(-45deg);
+}
+
+#a-25:hover .left {
+	transform: skewX(45deg);
+}
+
+#a-26:hover .bottom, #a-26:hover .skewed-box {
+	transform: skewY(45deg);
+}
+
+#a-26:hover .left {
+	transform: skewY(45deg);
+}
+
+#a-27:hover .bottom, #a-27:hover .skewed-box {
+	transform: skewY(-45deg);
+}
+
+#a-27:hover .left {
+	transform: skewY(45deg);
+	height: 170px;
+}
+
+#a-28:hover .main {
+	width: 200px;
+}
+
+#a-29:hover .main {
+	width: 200px;
+	margin-right: 300px;
+}
+
+#a-30:hover .main {
+	width: 200px;
+	margin-right: 300px;
+}
+
+#a-30:hover .left {
+	width: 200px;
+}
+
+#a-31:hover .big-box, #a-31:hover .small-box, #a-31:hover .skewed-box {
+	width: 48px;
+}
+
+#a-32:hover .main, #a-32:hover .left, #a-32:hover .bottom {
+	background-color: black;
+}
+
+#a-33 .main, #a-33 .left, #a-33 .bottom {
+	background-color: black;
+}
+
+#a-33:hover .main, #a-33:hover .left, #a-33:hover .bottom {
+	background-color: white;
+}
+
+#a-34 .main, #a-34 .left, #a-34 .bottom {
+	background-color: black;
+}
+
+#a-34:hover .big-box, #a-34:hover .small-box, #a-34:hover .skewed-box, #a-34:hover .left, #a-34:hover .bottom {
+	border: 1px solid white;
+}
+
+#a-35 .main, #a-35 .left, #a-35 .bottom {
+	background-color: black;
+}
+
+#a-35:hover .big-box, #a-35:hover .small-box, #a-35:hover .left, #a-35:hover .bottom, #a-35:hover .skewed-box {
+	border: 1px solid white;
+}
+
+#a-35:hover .big-box, #a-35:hover .small-box, #a-35:hover .skewed-box {
+	background-color: white;
+}
+
+#a-35:hover .skewed-box {
+	border-top: 1px solid black;
+}
+
+#a-36:hover .small-box {
+	margin-top: -30px;
+}
+
+#a-36:hover .big-box {
+	margin-left: -30px;
+}
+
+#a-37:hover .small-box {
+	margin-left: -80px;
+}
+
+#a-37:hover .big-box {
+	margin-top: -50px;
+}
+
+#a-37:hover .bottom {
+	margin-top: -20px;
+}
+
+#a-37:hover .skewed-box {
+	margin-top: -50px;
+	margin-left: 100px;
+}
+
+#a-38:hover .main, #a-38:hover .big-box, #a-38:hover .small-box, #a-38:hover .left, #a-38:hover .bottom, #a-38:hover .skewed-box {
+	border: 10px solid black;
+}
+
+#a-39:hover .main, #a-39:hover .big-box, #a-39:hover .small-box, #a-39:hover .left, #a-39:hover .bottom, #a-39:hover .skewed-box {
+	border: 10px solid black;
+	transform: skewX(45deg);
+}
+
+#a-40:hover .main, #a-40:hover .big-box, #a-40:hover .small-box, #a-40:hover .left, #a-40:hover .bottom, #a-40:hover .skewed-box {
+	border: 10px solid black;
+	transform: skewY(45deg);
+}
+
+#a-41 .main, #a-41 .big-box, #a-41 .small-box, #a-41 .left, #a-41 .bottom, #a-41 .skewed-box {
+	border: 10px solid black;
+	transform: skewX(-45deg);
+}
+
+#a-41:hover .main, #a-41:hover .big-box, #a-41:hover .small-box, #a-41:hover .left, #a-41:hover .bottom, #a-41:hover .skewed-box {
+	border: 1px solid black;
+	transform: none;
+}
+
+#a-41:hover .left {
+	transform: skewY(-45deg);
+}
+
+#a-41:hover .bottom, #a-41:hover .skewed-box {
+	transform: skewX(-45deg);
+}
+
+#a-42 .main, #a-42 .big-box, #a-42 .small-box, #a-42 .left, #a-42 .bottom, #a-42 .skewed-box {
+	border: 10px solid black;
+	transform: skewY(45deg);
+}
+
+#a-42:hover .main, #a-42:hover .big-box, #a-42:hover .small-box, #a-42:hover .left, #a-42:hover .bottom, #a-42:hover .skewed-box {
+	border: 1px solid black;
+	transform: none;
+}
+
+#a-42:hover .left {
+	transform: skewY(-45deg);
+}
+
+#a-42:hover .bottom, #a-42:hover .skewed-box {
+	transform: skewX(-45deg);
+}
+
+#a-43:hover div {
+	box-shadow: 0px 0px 0px 10px #FC5185;
+	transition: box-shadow 0.6s linear;
+}
+
+#a-44:hover div {
+    border: 1px dashed #000;
+}
+
+#a-45:hover {
+	
+}
