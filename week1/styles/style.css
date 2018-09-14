@@ -13,6 +13,7 @@ body {
 p {
 	margin-top: 5px;
 	margin-bottom: 20px;
+	width: 650px;
 }
 
 .reflection {
@@ -27,7 +28,9 @@ div {
 
 img {
 	padding-bottom: 0px;
-	width: 300px;
+	height: 300px;
+	margin-right: 60px;
+	margin-bottom: 30px;
 }
 
 .indent {
