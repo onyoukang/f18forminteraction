@@ -2,7 +2,7 @@ body {
 	overflow: hidden;
 }
 
-.page {
+.page, .title {
   float: left;
   width: 100vw;
   height: 100vh;
