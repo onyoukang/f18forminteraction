@@ -287,7 +287,7 @@ body {
 	height: 62px;
 	border: 1px solid black;
 	left: 600px;
-	top: 100px;
+	top: 200px;
 }
 
 #m .skewed-box {
@@ -629,147 +629,20 @@ body {
 	top: 35px;
 }
 
-#one .big-box {
-	width: 13px;
-	height: 65px;
-	border: 1px solid black;
-	left: 345px;
-	top: 380px;
-}
-
-#two .big-box {
-	width: 13px;
-	height: 65px;
-	border: 1px solid black;
-	transform: rotate(90deg);
-	left: 770px;
-	top: 50px;
-}
-
-#two .big-box-2 {
-	width: 13px;
-	height: 65px;
-	border: 1px solid black;
-	transform: rotate(90deg);
-	left: 460px;
-	top: 610px;
-}
-
-#three .big-box {
-	width: 13px;
-	height: 65px;
-	border: 1px solid black;
-	transform: rotate(90deg);
-	left: 95px;
-	top: 700px;
-}
-
-#three .big-box-2 {
-	width: 13px;
-	height: 65px;
-	border: 1px solid black;
-	transform: rotate(90deg);
-	left: 545px;
-	top: 170px;
-}
-
-#four .small-box {
+#aa .big-box {
 	width: 13px;
 	height: 30px;
 	border: 1px solid black;
-	left: 1015px;
-	top: 50px;
+	transform: rotate(90deg);
+	left: 820px;
+	top: 360px;
 }
 
-#four .big-box {
+#aa .big-box-2 {
 	width: 13px;
-	height: 65px;
-	border: 1px solid black;
-	left: 1060px;
-	top: 230px;
-}
-
-#five .big-box {
-	width: 13px;
-	height: 65px;
+	height: 30px;
 	border: 1px solid black;
 	transform: rotate(90deg);
-	left: 460px;
-	top: 395px;
-}
-
-#five .big-box-2 {
-	width: 13px;
-	height: 65px;
-	border: 1px solid black;
-	transform: rotate(90deg);
-	left: 1240px;
-	top: 615px;
-}
-
-#six .big-box {
-	width: 13px;
-	height: 65px;
-	border: 1px solid black;
-	transform: rotate(90deg);
-	left: 140px;
-	top: 485px;
-}
-
-#six .small-box {
-	width: 13px;
-	height: 30px;
-	border: 1px solid black;
-	float: left;
-	left: 445px;
-	top: 65px;
-}
-
-#seven .small-box {
-	width: 13px;
-	height: 30px;
-	border: 1px solid black;
-	left: 490px;
-	top: 530px;
-}
-
-#eight .small-box {
-	width: 13px;
-	height: 30px;
-	border: 1px solid black;
-	left: 900px;
-	top: 650px;
-}
-
-#eight .small-box-2 {
-	width: 13px;
-	height: 30px;
-	border: 1px solid black;
-	left: 495px;
-	top: 255px;
-}
-
-#nine .small-box {
-	width: 13px;
-	height: 30px;
-	border: 1px solid black;
-	left: 1135px;
-	top: 640px;
-}
-
-#nine .big-box {
-	width: 13px;
-	height: 65px;
-	border: 1px solid black;
-	transform: rotate(90deg);
-	left: 270px;
-	top: 120px;
-}
-
-#zero .small-box {
-	width: 13px;
-	height: 30px;
-	border: 1px solid black;
-	left: 100px;
-	top: 635px;
+	left: 45px;
+	top: 35px;
 }
