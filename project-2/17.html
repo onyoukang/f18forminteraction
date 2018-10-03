@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	
+	<link rel="stylesheet" href="styles/style.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/script.js"></script>
+
+</head>
+<body>
+    <div id='helper'>
+    	<div class="marker2 two"
+                data-0="opacity: 0;
+                transform: translateX(10px) rotate(10deg) translateY(5px);
+                background-color: red;
+                transform-origin: 0% 0%;"
+                data-150p="opacity:0.5;
+                transform: translateX(10px) rotate(20deg) translateY(15px);"
+                data-300p="opacity:0;">
+        </div>
+        <div class="marker2 three"
+                data-150p="opacity: 0;
+                transform: translateX(10px) rotate(20deg) translateY(5px);
+                background-color: blue;
+                transform-origin: 0% 0%;"
+                data-300p="opacity: 0.5;
+                transform: translateX(10px) rotate(10deg) translateY(5px);"
+                data-450p="opacity:0">
+        </div>
+        <div class="marker2 four"
+                data-300p="opacity: 0;
+                transform: translateX(10px) rotate(10deg) translateY(5px);
+                background-color: yellow;
+                transform-origin: 0% 0%;"
+                data-450p="opacity: 0.5;
+                transform: translateX(10px) rotate(20deg) translateY(5px);">
+        </div>
+    </div>
+
+
+
+    <script src="js/skrollr.min.js">
+    </script>
+
+    <script type="text/javascript">
+        var s = skrollr.init({
+    });
+    </script>
+
+
+
+</body>
+</html>

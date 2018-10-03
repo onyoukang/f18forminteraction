@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	
+	<link rel="stylesheet" href="styles/style.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/script.js"></script>
+
+</head>
+<body>
+    <div id='helper'>
+    	<div class="marker2 one"
+                data-0="opacity:0.5;
+                background-color:cyan;
+                transform-origin: center;
+                transform: scale(0.5);"
+                data-200p="opacity:0;
+                transform: scale(1);">
+
+        </div>
+    	<div class="marker2 two"
+                data-200="opacity:0.5;
+                background-color:cyan;
+                transform-origin: center;
+                transform: scale(0.5);"
+                data-400p="opacity:0;
+                transform: scale(1);">
+        </div>
+        <div class="marker2 three"
+                data-400="opacity:0.5;
+                background-color:cyan;
+                transform-origin: center;
+                transform: scale(0.5);"
+                data-600p="opacity:0;
+                transform: scale(1);">
+        </div>
+    </div>
+
+
+
+    <script src="js/skrollr.min.js">
+    </script>
+
+    <script type="text/javascript">
+        var s = skrollr.init({
+    });
+    </script>
+
+
+
+</body>
+</html>

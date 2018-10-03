@@ -1,0 +1,82 @@
+body {
+	padding-left: 20px;
+	font-family: 'PT Serif', serif;
+}
+
+.skrollr-container{
+	width: 100%;
+	height:100%;
+	overflow:hidden;
+}
+
+.sections{
+	position:fixed;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	
+}
+
+.section{
+	position:absolute;
+	top:0;
+	left:0;
+	width:50%;
+	height:50%;
+}
+
+.one{
+	background-color: green;
+}
+
+.two{
+	background-color: red;
+
+}
+.three{
+	background-color: blue;
+	
+}
+.four{
+	background-color: yellow;
+	
+}
+
+#helper{
+	/*display:none;*/
+	position:absolute;
+	left:0;
+	top:0;
+	height:100%;
+	width:20px;
+}
+
+.marker{
+	width: 100vw;
+	height:100vh;
+	/*opacity: 0.5;*/
+	/*border: 2px solid black;*/
+}
+
+.marker2 {
+	width: 100vw;
+	height:100vh;
+	position: fixed;
+}
+
+/*.spin{
+	position:fixed;
+	width:25%;
+	height:20px;
+	top:33%;
+	left:33%;
+	background-color: cyan;
+}*/
+
+.buttons {
+	color: #000000;
+	text-decoration: none;
+	padding: 5px;
+	border: 1px black solid;
+}

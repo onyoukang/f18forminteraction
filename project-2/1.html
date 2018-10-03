@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	
+	<link rel="stylesheet" href="styles/style.css" />
+	<script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/script.js"></script>
+
+</head>
+<body>
+
+    <div class="skrollr-container">
+    <div class = "spin"
+    			data-0="opacity:0;
+    			-ms-transform: rotate(0deg);
+    			-webkit-transform: rotate(0deg); 
+    			transform: rotate(0deg);
+    			background-color:cyan"
+    			data-200p="opacity:1;
+    			background-color:red;
+    			-ms-transform: rotate(720deg);
+    			-webkit-transform: rotate(720deg); 
+    			transform: rotate(720deg);"
+    			data-400p="opacity:0;
+    			-ms-transform: rotate(0deg);
+    			-webkit-transform: rotate(0deg); 
+    			transform: rotate(0deg);
+    			background-color:blue">
+    				
+    			</div>
+
+    		</div>
+
+
+    </div>
+
+    <div id='helper'>
+    	<div class="marker one"
+                data-0="opacity:0.5;
+                background-color:cyan;"
+                data-100p="opacity:0"></div>
+    	<div class="marker two"
+                data-0="opacity:0;
+                background-color:red"
+                data-100p="opacity:0.5"
+                data-200p="opacity:0"></div>
+    </div>
+
+
+
+    <script src="js/skrollr.min.js">
+    </script>
+
+    <script type="text/javascript">
+        var s = skrollr.init({
+    });
+    </script>
+
+
+
+</body>
+</html>
