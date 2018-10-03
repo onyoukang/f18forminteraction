@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	
+	<link rel="stylesheet" href="styles/style.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/script.js"></script>
+
+</head>
+<body>
+    <div id='helper'>
+    	<div class="marker2 two"
+                data-0="opacity: 0;
+                transform: translateY(-100%) rotateX(0deg) ; 
+                background-color: red;
+                transform-origin: 0% 0%;"
+                data-150p="opacity: 0.5;
+                transform: translateY(-40%) rotateX(20deg);"
+                data-300p="opacity: 1">
+        </div>
+        <div class="marker2 three"
+                data-150p="opacity: 0;
+                transform: translateX(100%) rotateX(20deg);
+                background-color: lightgreen;
+                transform-origin: 0% 0%;"
+                data-300p="opacity: 0.5;
+                transform: translateX(30%) rotateX(40deg)";
+                data-450p="opacity: 1">
+        </div>
+        <div class="marker2 four"
+                data-300p="opacity: 0;
+                transform: translateX(-100%) rotateX(40deg);
+                background-color: pink;
+                transform-origin: 50% 0%;"
+                data-450p="opacity: 0.5;
+                transform: translateX(-20%) rotateX(60deg);"
+                data-600p="opacity: 1">
+        </div>
+        <div class="marker2 five"
+                data-450p="opacity: 0;
+                transform: translateY(100%) rotateY(0deg);
+                background-color: brown;
+                transform-origin: 50% 0%;"
+                data-600p="opacity: 0.5;
+                transform: translateY(50%) rotateY(30deg);"
+                data-750p="opacity: 1">
+        </div>
+        <div class="marker2 six"
+                data-600p="opacity: 0;
+                transform: translateY(-100%) rotateX(0deg);
+                background-color: lightblue;
+                transform-origin: 50% 0%;"
+                data-750p="opacity: 0.5;
+                transform: translateY(-40%) rotateX(30deg);"
+                data-900p="opacity: 1>
+        </div>
+        <div class="marker2 seven"
+                data-750p="opacity: 0;
+                transform: translateX(-100%);
+                background-color: dodgerblue;
+                transform-origin: 0% 0%;"
+                data-900p="opacity: 0.5;
+                transform: translateX(-90%);">
+        </div>
+    </div>
+
+
+
+    <script src="js/skrollr.min.js">
+    </script>
+
+    <script type="text/javascript">
+        var s = skrollr.init({
+    });
+    </script>
+
+
+
+</body>
+</html>
