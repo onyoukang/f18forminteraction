@@ -34,10 +34,10 @@ body {
 	background-color: red;
 
 }
-.three{
+/*.three{
 	background-color: blue;
 	
-}
+}*/
 .four{
 	background-color: yellow;
 	
@@ -78,4 +78,16 @@ body {
 	text-decoration: none;
 	padding: 5px;
 	border: 1px black solid;
+}
+
+div {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+p {
+	position: relative;
+	top: 45vh;
+	left: 45vw;
 }
