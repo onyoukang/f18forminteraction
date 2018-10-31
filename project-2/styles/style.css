@@ -91,3 +91,21 @@ p {
 	top: 45vh;
 	left: 45vw;
 }
+
+.container {
+	width: 100vw;
+	height: 100vh;
+}
+
+.arrow {
+	position: relative;
+	width: 30px;
+	float: right;
+	top: 90vh;
+	right: 5vw;
+}
+
+.page {
+	height: 3900px;
+	border: solid 1px #ccc
+}
