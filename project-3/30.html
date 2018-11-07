@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:900,900i" rel="stylesheet"> 
+	<link rel="stylesheet" href="styles/30.css" />
+	<script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<canvas id="myCanvas" width="1440" height="780">
+	<div class="container">
+		<div class="container">
+			<div class="box">
+				<p id="demo"></p>
+			</div>
+			<img id="myImage" src="1.jpg" style="width:100px">
+			<img id="myImage2" src="2.jpg" style="width:400px">
+		</div>
+	</div>
+
+	<script>
+		function myFunction() {
+		    var w = window.innerWidth;
+		    var h = window.innerHeight;
+
+		    var wRandom = Math.floor((Math.random() * w) + 1);
+		    var hRandom = Math.floor((Math.random() * h) + 1);
+		    var wRandom2 = Math.floor((Math.random() * w) + 1);
+		    var hRandom2 = Math.floor((Math.random() * h) + 1);
+		    var colorRandom = Math.floor((Math.random() * 5) + 1);
+
+		    var c = document.getElementById("myCanvas");
+			var ctx = c.getContext("2d");
+			ctx.beginPath();
+			ctx.moveTo(wRandom, hRandom);
+			ctx.lineTo(wRandom2, hRandom2);
+			if (colorRandom <= 1) {
+				ctx.strokeStyle = "#ff0000";
+			}
+			else {
+				ctx.strokeStyle = "#000000";
+			}
+			ctx.stroke();
+
+		    document.getElementById("myImage").style.marginTop = hRandom + "px";
+		    document.getElementById("myImage").style.marginLeft = wRandom + "px";
+		    document.getElementById("myImage").style.width = hRandom2+ "px";
+		    document.getElementById("myImage2").style.marginTop = hRandom2 + "px";
+		    document.getElementById("myImage2").style.marginLeft = wRandom2 + "px";
+		    document.getElementById("myImage2").style.width = hRandom+ "px";
+
+		    
+		}
+		$( window ).resize(function() {
+			myFunction();
+		});
+	</script>
+
+</body>
+</html>

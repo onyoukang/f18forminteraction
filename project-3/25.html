@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:900,900i" rel="stylesheet"> 
+	<link rel="stylesheet" href="styles/25.css" />
+	<script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="container">
+			<div class="box">
+				<p id="demo"></p>
+			</div>
+			<img id="myImage" src="1.jpg" style="width:100px">
+		</div>
+	</div>
+
+	<script>
+		function myFunction() {
+		    var w = window.innerWidth;
+		    var h = window.innerHeight;
+
+		    var wRandom = Math.floor((Math.random() * w) + 1);
+		    var hRandom = Math.floor((Math.random() * h) + 1);
+		    var wRandom2 = Math.floor((Math.random() * w) + 1);
+		    var hRandom2 = Math.floor((Math.random() * h) + 1);
+
+		    document.getElementById("myImage").style.marginTop = hRandom + "px";
+		    document.getElementById("myImage").style.marginLeft = wRandom + "px";
+		}
+		$( window ).resize(function() {
+			myFunction();
+		});
+	</script>
+
+</body>
+</html>

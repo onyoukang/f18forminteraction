@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="styles/21.css" />
+	<script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<canvas id="myCanvas" width="1440" height="780">
+
+	<script>
+		function myFunction() {
+		    var w = window.innerWidth;
+		    var h = window.innerHeight;
+
+		    var c = document.getElementById("myCanvas");
+			var ctx = c.getContext("2d");
+			ctx.strokeStyle = "#000000";
+			ctx.strokeRect(0, 0, w, h);
+		}
+
+		$( window ).resize(function() {
+			myFunction();
+		});
+	</script>
+
+
+</body>
+</html>

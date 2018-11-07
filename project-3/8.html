@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="styles/8.css" />
+	<script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/script.js"></script>
+
+</head>
+<body>
+	<div class="container">
+		<div class="box">
+			<p id="demo"></p>
+		</div>
+	</div>
+
+	<script>
+	function myFunction() {
+	    var w = window.innerWidth;
+	    var h = window.innerHeight;
+	    document.getElementById("demo").innerHTML = document.getElementById("demo").innerHTML + "w" + w + " h" + h;
+	}
+	$( window ).resize(function() {
+		myFunction();
+	});
+	</script>
+
+</body>
+
+
+</html>

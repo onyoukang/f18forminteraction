@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="styles/15.css" />
+	<script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<canvas id="myCanvas" width="100vw" height="100vh">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+	<script>
+		
+
+		function myFunction() {
+		    var w = window.innerWidth;
+		    var h = window.innerHeight;
+		    var c = document.getElementById("myCanvas");
+			var ctx = c.getContext("2d");
+			ctx.beginPath();
+			ctx.moveTo(0, 0);
+			ctx.lineTo(w, h);
+			ctx.stroke();
+			console.log("boo");
+		}
+
+		$( window ).resize(function() {
+			myFunction();
+		});
+	</script>
+
+
+</body>
+</html>
