@@ -20,6 +20,13 @@ body {
 	background-color: white;
 }
 
+.buttons {
+	color: #000000;
+	text-decoration: none;
+	padding: 5px;
+	border: 1px black solid;
+}
+
 @media (max-width: 1400px) { 
 	.box{	
 	}
