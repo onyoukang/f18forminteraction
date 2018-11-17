@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	
+	<link rel="stylesheet" href="styles/41.css" />
+	<script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/script.js"></script>
+
+</head>
+<body>
+	<div class="container">
+		<div id="box"></div>
+		<div id="box2"></div>
+		<div id="box3"></div>
+		<div id="box4"></div>
+		<div id="box5"></div>
+		<div id="box6"></div>
+		<div id="box7"></div>
+		<div id="box8"></div>
+		<div id="box9"></div>
+	</div>
+
+	<script>
+		function myFunction() {
+		    var random1 = Math.floor((Math.random() * 256) + 1);
+		    var random2 = Math.floor((Math.random() * 256) + 1);
+		    var random3 = Math.floor((Math.random() * 256) + 1);
+		    var random4 = Math.floor((Math.random() * 10) + 1)/50;
+
+		    document.getElementById("box").style.backgroundColor = 'rgb(' + random1 + ',' + random2 + ',' + random3 + ',' + random4 +')';
+
+		    document.getElementById("box2").style.backgroundColor = 'rgb(' + random1 + ',' + random2 + ',' + random3 + ',' + random4 +')';
+
+		    document.getElementById("box3").style.backgroundColor = 'rgb(' + random1 + ',' + random2 + ',' + random3 + ',' + random4 +')';
+
+		    document.getElementById("box4").style.backgroundColor = 'rgb(' + random1 + ',' + random2 + ',' + random3 + ',' + random4 +')';
+
+		    document.getElementById("box5").style.backgroundColor = 'rgb(' + random2 + ',' + random3 + ',' + random1 + ',' + random4 +')';
+
+		    document.getElementById("box6").style.backgroundColor = 'rgb(' + random2 + ',' + random3 + ',' + random1 + ',' + random4 +')';
+
+		    document.getElementById("box7").style.backgroundColor = 'rgb(' + random2 + ',' + random3 + ',' + random1 + ',' + random4 +')';
+
+		    document.getElementById("box8").style.backgroundColor = 'rgb(' + random2 + ',' + random3 + ',' + random1 + ',' + random4 +')';
+
+		    document.getElementById("box9").style.backgroundColor = 'rgb(' + random2 + ',' + random3 + ',' + random1 + ',' + random4 +')';
+
+		}
+		$( window ).resize(function() {
+			myFunction();
+		});
+	</script>
+
+</body>
+</html>
