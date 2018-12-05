@@ -1,0 +1,1079 @@
+body {
+	transition: background  1.5s;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+p {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-style: italic;
+	line-height: 1.4em;
+}
+
+.intro {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: white;
+	animation: 3s ease-in 5s 1 disappear;
+	visibility: visible;
+	-webkit-animation-fill-mode: forwards;
+	z-index: 3;
+}
+
+.intro-text {
+	z-index: 4;
+	position: absolute;
+	width: 800px;
+	font-size: 4vw;
+	top: 15vw;
+	left: 15vw;
+	opacity: 1;
+/*	animation: 3s ease-in 0s 1 reveal;*/
+	animation: 3s ease-in 5s 1 disappear;
+	visibility: visible;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.content {
+	opacity: 1;
+	animation: 3s ease-in 8s 1 reveal;
+	visibility: hidden;
+	-webkit-animation-fill-mode: forwards;
+}
+
+@keyframes reveal {
+	0% {
+	 	opacity: 0;
+	 	visibility: visible;
+	}
+
+	100% {
+	 	opacity: 1;
+	 	visibility: visible;
+	}
+}
+
+@keyframes disappear {
+	0% {
+	 	opacity: 1;
+	 	z-index: 3
+	 	visibility: visible;
+	}
+
+	100% {
+	 	opacity: 0;
+	 	z-index: -1;
+	 	visibility: hidden;
+	}
+}
+
+.vertical-bar {
+	height: 100vh;
+	width: 2px;
+	position: absolute;
+	background-color: black;
+	left: 10px;
+	transition: background  1.5s;
+}
+
+.horizontal-bar {
+	height: 2px;
+	width: 100vw;
+	position: absolute;
+	background-color: black;
+	top: 10px;
+	transition: background  1.5s;
+}
+
+.label {
+	position: absolute;
+	font-size: 10px;
+	width: 70px;
+	transition: color  1.5s;
+}
+
+.ver-scale {
+	position: absolute;
+	background-color: black;
+	width: 15px;
+	height: 2px;
+	transition: background  1.5s;
+}
+
+.ver-scale-1 {
+	top: 160px;
+	left: 5px;
+}
+
+.ver-1 {
+	top: 155px;
+	left: 30px;
+}
+
+.ver-scale-2 {
+	top: 320px;
+	left: 5px;
+}
+
+.ver-2 {
+	top: 315px;
+	left: 30px;
+}
+
+.ver-scale-3 {
+	top: 480px;
+	left: 5px;
+}
+
+.ver-3 {
+	top: 475px;
+	left: 30px;
+}
+
+.ver-scale-4 {
+	top: 640px;
+	left: 5px;
+}
+
+.ver-4 {
+	top: 630px;
+	left: 30px;
+}
+
+.hor-scale {
+	position: absolute;
+	background-color: black;
+	height: 15px;
+	width: 2px;
+	transition: background  1.5s;
+}
+
+.hor-scale-1 {
+	top: 5px;
+	left: 400px;
+}
+
+.hor-1 {
+	top: 25px;
+	left: 370px;
+}
+
+.hor-scale-2 {
+	top: 5px;
+	left: 530px;
+}
+
+.hor-2 {
+	top: 25px;
+	left: 495px;
+	text-align: center;
+}
+
+.hor-scale-3 {
+	top: 5px;
+	left: 660px;
+}
+
+.hor-3 {
+	top: 25px;
+	left: 625px;
+	text-align: center;
+}
+
+.hor-scale-4 {
+	top: 5px;
+	left: 790px;
+}
+
+.hor-4 {
+	top: 25px;
+	left: 755px;
+	text-align: center;
+}
+
+.hor-scale-5 {
+	top: 5px;
+	left: 920px;
+}
+
+.hor-5 {
+	top: 25px;
+	left: 885px;
+	text-align: center;
+}
+
+.hor-scale-6 {
+	top: 5px;
+	left: 1050px;
+}
+
+.hor-6 {
+	top: 25px;
+	left: 1015px;
+	text-align: center;
+}
+
+.hor-scale-7 {
+	top: 5px;
+	left: 1180px;
+}
+
+.hor-7 {
+	top: 25px;
+	left: 1145px;
+	text-align: center;
+}
+
+.hor-scale-8 {
+	top: 5px;
+	left: 1310px;
+}
+
+.hor-8 {
+	top: 25px;
+	left: 1275px;
+	text-align: center;
+}
+
+
+.container{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.info {
+	font-size: 4vw;
+	transition: color  1.5s;
+	transition: opacity 1.5s;
+	opacity: 0;
+	position: absolute;
+}
+
+.crime {
+	top: 15vw;
+	left: 15vw;
+	width: 70vw;
+}
+
+.sentence {
+	top: 21vw;
+	left: 15vw;
+	width: 70vw;
+	  	text-shadow:
+   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff;
+     /*3px 3px 0 #fff;*/
+}
+
+.link {
+	top: 37vw;
+	left: 15vw;
+	padding: 0.8vw 1.6vw;
+	border: 2px solid white;
+}
+
+.one, .four, .five, .ten {
+	color: black;
+}
+
+.two, .three, .six, .seven, .eight, .nine {
+	color: white;
+}
+
+/*sexual assault*/
+@media (max-width: 1440px) and (max-height: 800px) { 
+	body {
+		background-color: black;
+	}
+
+	.one, .two {
+		opacity: 0;
+	}
+
+	.three {
+		opacity: 1;
+	}
+
+	.two.link, .eight.link, .seven.link, .six.link {
+		z-index: 0;
+	}
+
+	.three.link {
+		z-index: 3;
+	}
+
+	.sentence {
+		color: black;
+	}
+
+	a {
+		color: white;
+	}
+
+	.label {
+		color: white;
+	}
+
+	.vertical-bar {
+		background-color: white;
+	}
+
+	.horizontal-bar {
+		background-color: white;
+	}
+
+	.ver-scale {
+		background-color: white;
+	}
+
+	.hor-scale {
+		background-color: white;
+	}
+
+	.link:hover {
+		background-color: white;
+		color: black;
+		transition: background-color 1s ease;
+	}
+}
+
+@media (max-width: 1180px) and (max-height: 800px){
+	.three {
+		opacity: 0;
+		display: none;
+	}
+
+	.two {
+		opacity: 1;
+	}
+
+	.three.link, .four.link, .nine.link {
+		z-index: 0;
+	}
+
+	.two.link {
+		z-index: 3;
+	}
+
+}
+
+@media (max-width: 920px) and (max-height: 800px) { 
+	body {
+		background-color: white;
+	}
+
+	.two {
+		opacity: 0;
+	}
+
+	.four {
+		opacity: 1;
+	}
+
+	.two.link, .five.link, .nine.link, .three.link {
+		z-index: 0;
+	}
+
+	.link {
+		display: none;
+	}
+
+	a {
+		color: black;
+	}
+
+	.label {
+		color: black;
+	}
+
+	.vertical-bar {
+		background-color: black;
+	}
+
+	.horizontal-bar {
+		background-color: black;
+	}
+
+	.ver-scale {
+		background-color: black;
+	}
+
+	.hor-scale {
+		background-color: black;
+	}
+
+	.link {
+		border: 2px solid black;
+	}
+
+	.link:hover {
+		background-color: black;
+		color: white;
+		transition: background-color 1s ease;
+	}
+
+	.four.sentence {
+		top: 27vw;
+		left: 15vw;
+		width: 70vw;
+	}
+
+	.four.link {
+		top: 42vw;
+		left: 15vw;
+		padding: 0.8vw 1.6vw;
+		z-index: 3;
+		display: inline;
+	}
+
+	.sentence {
+		text-shadow:
+	   -1px -1px 0 #000,  
+	    1px -1px 0 #000,
+	    -1px 1px 0 #000,
+	     1px 1px 0 #000;
+	     /*3px 3px 0 #fff;*/
+	    color: white;
+	}
+}
+
+@media (max-width: 790px) and (max-height: 800px){
+	.four {
+		opacity: 0;
+		display: none;
+	}
+
+	.five {
+		opacity: 1;
+	}
+
+	.link {
+		display: none;
+	}
+
+	.one.link, .four.link, .nine.link {
+		z-index: 0;
+	}
+
+	.five.link {
+		display: inline;
+		top: 43vw;
+		z-index: 3;
+	}
+
+	.info {
+		left: 138px;
+	}
+}
+
+@media (max-width: 530px) and (max-height: 800px){
+	.five {
+		opacity: 0;
+		display: none;
+	}
+
+	.one {
+		opacity: 1;
+	}
+
+	.ten.link, .five.link, .nine.link {
+		z-index: 0;
+	}
+
+	.ten.link {
+		display: none;
+	}
+
+	.one.link {
+		z-index: 3;
+		display: inline;
+	}
+}
+
+/*drugs*/
+@media (max-width: 1440px) and (max-height: 640px) { 
+	body {
+		background-color: black;
+	}
+
+	.one, .two, .three, .four, .five, .seven, .eight, .nine, .ten {
+		opacity: 0;
+	}
+
+	.six {
+		opacity: 1;
+	}
+
+	.seven.link, .eleven.link, .three.link {
+		z-index: 0;
+	}
+
+	.six.link {
+		z-index: 3;
+	}
+
+	a {
+		color: white;
+	}
+
+	.label {
+		color: white;
+	}
+
+	.vertical-bar {
+		background-color: white;
+	}
+
+	.horizontal-bar {
+		background-color: white;
+	}
+
+	.ver-scale {
+		background-color: white;
+	}
+
+	.hor-scale {
+		background-color: white;
+	}
+
+	.link:hover {
+		background-color: white;
+		color: black;
+		transition: background-color 1s ease;
+	}
+}
+
+@media (max-width: 1300px) and (max-height: 640px) {
+	.one, .two, .three, .four, .five, .six, .eight, .nine, .ten {
+		opacity: 0;
+	}
+
+	.seven {
+		opacity: 1;
+	}
+
+	.six.link, .eight.link, .eleven.link, .three.link {
+		z-index: 0;
+	}
+
+	.seven.link {
+		z-index: 3;
+	}
+}
+
+
+@media (max-width: 1250px) and (max-height: 640px) {
+	.one, .two, .three, .four, .five, .six, .seven, .nine, .ten {
+		opacity: 0;
+	}
+
+	.eight {
+		opacity: 1;
+	}
+
+	.seven.link, .nine.link, .eleven.link, .three.link {
+		z-index: 0;
+	}
+
+	.eight.link {
+		z-index: 3;
+	}
+}
+
+@media (max-width: 1200px) and (max-height: 640px) {
+	.one, .two, .three, .four, .five, .six, .seven, .eight, .ten {
+		opacity: 0;
+	}
+
+	.nine {
+		opacity: 1;
+	}
+
+	.eight.link, .ten.link, .two.link, .four.link, .five.link, .one.link, .twelve.link, .thirteen.link, .fourteen.link {
+		z-index: 0;
+	}
+
+	.nine.link {
+		z-index: 2;
+	}
+
+	.link {
+		border: 2px solid white;
+	}
+}
+
+@media (max-width: 920px) and (max-height: 640px) { 
+	.sentence {
+		text-shadow:
+	   -1px -1px 0 #fff,  
+	    1px -1px 0 #fff,
+	    -1px 1px 0 #fff,
+	     1px 1px 0 #fff;
+	     /*3px 3px 0 #fff;*/
+	    color: black;
+	}
+
+	.nine.link {
+		display: inline;
+	}
+}
+
+@media (max-width: 790px) and (max-height: 640px) { 
+	.info {
+		left: 119px;
+	}
+}
+
+@media (max-width: 530px) and (max-height: 640px) { 
+	body {
+		background-color: white;
+	}
+
+	.one, .two, .three, .four, .five, .six, .seven, .eight, .nine {
+		opacity: 0;
+	}
+
+	.ten {
+		opacity: 1;
+	}
+
+	.nine.link, .fifteen.link, .fourteen.link, .one.link {
+		z-index: 0;
+	}
+
+	.ten.link {
+		z-index: 3;
+		display: inline;
+	}
+
+	a {
+		color: black;
+	}
+
+	.label {
+		color: black;
+	}
+
+	.vertical-bar {
+		background-color: black;
+	}
+
+	.horizontal-bar {
+		background-color: black;
+	}
+
+	.ver-scale {
+		background-color: black;
+	}
+
+	.hor-scale {
+		background-color: black;
+	}
+
+	.link {
+		border: 2px solid black;
+	}
+
+	.link:hover {
+		background-color: black;
+		color: white;
+		transition: background-color 1s ease;
+	}
+
+	.two .link {
+		display: none;
+	}
+
+	.four.sentence {
+		top: 33vw;
+		left: 15vw;
+		width: 70vw;
+	}
+
+	.four.link {
+		top: 48vw;
+		left: 15vw;
+		padding: 0.8vw 1.6vw;
+	}
+
+	.sentence {
+		text-shadow:
+	   -1px -1px 0 #000,  
+	    1px -1px 0 #000,
+	    -1px 1px 0 #000,
+	     1px 1px 0 #000;
+	     /*3px 3px 0 #fff;*/
+	    color: white;
+	}
+}
+
+/*robbery*/
+@media (max-width: 1440px) and (max-height: 480px) { 
+	body {
+		background-color: black;
+	}
+
+	.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten {
+		opacity: 0;
+	}
+
+	.eleven {
+		opacity: 1;
+	}
+
+	.six.link, .seven.link, .eight.link, .nine.link, .twelve.link, .sixteen.link, .seventeen.link {
+		z-index: 0;
+	}
+
+	.eleven.link {
+		z-index: 3;
+	}
+
+	.crime {
+		color: white;
+		top: 9vw;
+	}
+
+	.sentence {
+		top: 15vw;
+	}
+
+	.link {
+		top: 26vw;
+	}
+
+	a {
+		color: white;
+	}
+
+	.label {
+		color: white;
+	}
+
+	.vertical-bar {
+		background-color: white;
+	}
+
+	.horizontal-bar {
+		background-color: white;
+	}
+
+	.ver-scale {
+		background-color: white;
+	}
+
+	.hor-scale {
+		background-color: white;
+	}
+
+	.link:hover {
+		background-color: white;
+		color: black;
+		transition: background-color 1s ease;
+	}
+}
+
+@media (max-width: 1100px) and (max-height: 480px) { 
+	.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven {
+		opacity: 0;
+	}
+
+	.twelve {
+		opacity: 1;
+	}
+
+	.nine.link, .eleven.link, .thirteen.link, .seventeen.link {
+		z-index: 0;
+	}
+
+	.twelve.link {
+		z-index: 3;
+	}
+}
+
+@media (max-width: 1005px) and (max-height: 480px) { 
+	.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve {
+		opacity: 0;
+	}
+
+	.thirteen {
+		opacity: 1;
+	}
+
+	.nine.link, .twelve.link, .fourteen.link, .seventeen.link {
+		z-index: 0;
+	}
+
+	.thirteen.link {
+		z-index: 3;
+	}
+}
+
+@media (max-width: 920px) and (max-height: 480px) { 
+	body {
+		background-color: white;
+	}
+
+	.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen {
+		opacity: 0;
+	}
+
+	.fourteen {
+		opacity: 1;
+	}
+
+	.nine.link, .ten.link, .thirteen.link, .fifteen.link, .eighteen.link {
+		z-index: 0;
+	}
+
+	.fourteen.link {
+		z-index: 3;
+		display: inline;
+	}
+
+	a {
+		color: black;
+	}
+
+	.crime {
+		color: black;
+		top: 9vw;
+	}
+
+	.label {
+		color: black;
+	}
+
+	.vertical-bar {
+		background-color: black;
+	}
+
+	.horizontal-bar {
+		background-color: black;
+	}
+
+	.ver-scale {
+		background-color: black;
+	}
+
+	.hor-scale {
+		background-color: black;
+	}
+
+	.link {
+		border: 2px solid black;
+	}
+
+	.link:hover {
+		background-color: black;
+		color: white;
+		transition: background-color 1s ease;
+	}
+
+	.sentence {
+		text-shadow:
+	   -1px -1px 0 #000,  
+	    1px -1px 0 #000,
+	    -1px 1px 0 #000,
+	     1px 1px 0 #000;
+	     /*3px 3px 0 #fff;*/
+	    color: white;
+	}
+}
+
+@media (max-width: 410px) and (max-height: 480px) { 
+	.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen {
+		opacity: 0;
+	}
+
+	.fifteen {
+		opacity: 1;
+	}
+
+	.ten.link, .fourteen.link, .eighteen.link {
+		z-index: 0;
+	}
+
+	.fifteen.link {
+		z-index: 3;
+		display: inline;
+	}
+}
+
+/*murder*/
+@media (max-width: 1440px) and (max-height: 320px) { 
+	body {
+		background-color: black;
+	}
+
+	.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen {
+		opacity: 0;
+	}
+
+	.sixteen {
+		opacity: 1;
+	}
+
+	.eleven.link, .seventeen.link {
+		z-index: 0;
+	}
+
+	.sixteen.link {
+		z-index: 3;
+		display: inline;
+	}
+
+	.crime {
+		color: white;
+		top: 6vw;
+	}
+
+	.sentence {
+		top: 10vw;
+	}
+
+	.link {
+		top: 16vw;
+		padding: 0.35vw 0.7vw;
+	}
+
+	a {
+		color: white;
+	}
+
+	.label {
+		color: white;
+	}
+
+	.vertical-bar {
+		background-color: white;
+	}
+
+	.horizontal-bar {
+		background-color: white;
+	}
+
+	.ver-scale {
+		background-color: white;
+	}
+
+	.hor-scale {
+		background-color: white;
+	}
+
+	.link:hover {
+		background-color: white;
+		color: black;
+		transition: background-color 1s ease;
+	}
+
+	.info {
+		font-size: 3vw;
+	}
+}
+
+@media (max-width: 1370px) and (max-height: 320px) { 
+	.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen, .sixteen {
+		opacity: 0;
+	}
+
+	.seventeen {
+		opacity: 1;
+	}
+
+	.eleven.link, .twelve.link, .thirteen.link, .sixteen.link, .eighteen.link {
+		z-index: 0;
+	}
+
+	.seventeen.link {
+		z-index: 3;
+		display: inline;
+	}	
+}
+
+@media (max-width: 920px) and (max-height: 320px) { 
+	body {
+		background-color: white;
+	}
+
+	.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen, .sixteen, .seventeen {
+		opacity: 0;
+	}
+
+	.eighteen {
+		opacity: 1;
+	}
+
+	.fourteen.link, .fifteen.link, .seventeen.link {
+		z-index: 0;
+	}
+
+	.eighteen.link {
+		z-index: 3;
+		display: inline;
+	}	
+
+	a {
+		color: black;
+	}
+
+	.crime {
+		color: black;
+	}
+
+	.label {
+		color: black;
+	}
+
+	.vertical-bar {
+		background-color: black;
+	}
+
+	.horizontal-bar {
+		background-color: black;
+	}
+
+	.ver-scale {
+		background-color: black;
+	}
+
+	.hor-scale {
+		background-color: black;
+	}
+
+	.link {
+		border: 2px solid black;
+	}
+
+	.link:hover {
+		background-color: black;
+		color: white;
+		transition: background-color 1s ease;
+	}
+
+	.sentence {
+		text-shadow:
+	   -1px -1px 0 #000,  
+	    1px -1px 0 #000,
+	    -1px 1px 0 #000,
+	     1px 1px 0 #000;
+	     /*3px 3px 0 #fff;*/
+	    color: white;
+	}
+}

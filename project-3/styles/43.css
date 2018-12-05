@@ -36,9 +36,11 @@ iframe {
 
 .article {
 	width: 90vw;
-	height: 65vh;
+	/*height: 65vh;*/
+	height: 90vh;
 	margin: auto;
-	margin-top: 30vh;
+	/*margin-top: 30vh;*/
+	margin-top: 5vh;
 	margin-left: 5vw;
 	border: 2px black solid;
 }
@@ -53,9 +55,38 @@ p {
 
 .info {
 	position: absolute;
-	margin-left: 5vw;
-	top: 3vh;
-	font-size: 5vh;
+/*	margin-left: 5vw;
+	top: 3vh;*/
+	font-size: 10vh;
+	color: white;
+	line-height: 1.2em;
+  	text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000,
+     3px 3px 0 #000;
+}
+
+.race {
+	position: absolute;
+	top: 5vh;
+	left: 50vw;
+}
+
+.sentence {
+	position: absolute;
+	top: 30vh;
+	left: 3vw;
+	width: 67vw;
+	line-height: 1.2em;
+}
+
+.crime {
+	position: absolute;
+	bottom: 5vh;
+	right: 5vw;
+	width: 30vw;
 }
 
 .one {
@@ -103,6 +134,10 @@ p {
 
 	.two {
 		display: inline;
+	}
+
+	.info {
+		font-size: 7vw;
 	}
 }
 
