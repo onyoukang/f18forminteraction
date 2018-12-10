@@ -297,7 +297,7 @@ p {
 }
 
 /*sexual assault*/
-@media (max-width: 1440px) and (max-height: 800px) { 
+@media (max-width: 1700px) and (max-height: 800px) { 
 	body {
 		background-color: black;
 	}
@@ -724,7 +724,7 @@ p {
 }
 
 /*robbery*/
-@media (max-width: 1440px) and (max-height: 480px) { 
+@media (max-width: 1700px) and (max-height: 480px) { 
 	body {
 		background-color: black;
 	}
@@ -917,7 +917,7 @@ p {
 }
 
 /*murder*/
-@media (max-width: 1440px) and (max-height: 320px) { 
+@media (max-width: 1700px) and (max-height: 320px) { 
 	body {
 		background-color: black;
 	}
