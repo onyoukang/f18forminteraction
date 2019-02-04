@@ -37,3 +37,14 @@ img {
 .indent {
 	margin-left: 60px;
 }
+
+.matchbook {
+	border: 1px solid gray;
+	width: 350px;
+	height: 350px;
+}
+
+.ileechill {
+	width: 350px;
+	height: 350px;
+}
